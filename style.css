@@ -1,0 +1,230 @@
+body {
+    font-family: Verdana, sans-serif;
+    background-color: #2f0000;
+    text-align: center;
+}
+
+header {
+  background-color: #2f0000;
+  position: relative;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+.logo a {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+
+/* меню */
+.menu {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+
+/* посилання */
+.menu a {
+  text-decoration: none; 
+  color: rgb(255, 254, 254);
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  transition: 0.2s;
+}
+
+/* ефект при наведенні */
+.menu a:hover {
+  color: #650000;
+}
+
+.hero > * {
+  position: relative;
+  z-index: 2;
+}
+
+.hero {
+  height: 105vh;
+  background: url("img/strng.webp") center/cover no-repeat;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.35);
+  z-index: 1;
+}
+
+/* текст зліва */
+.hero-content {
+  position: relative;
+  color: white;
+  transform: translateY(-60px);
+  max-width: 400px;
+  margin-left: 60px;
+}
+
+/* заголовок */
+.hero-content h1 {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+/* текст */
+.hero-content p {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+/* кнопка */
+.btn {
+  background: #650000;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background: #ff2a2a;
+}
+
+/* текст під заголовком */
+.subtitle {
+  font-size: 14px;
+  color: #ccc; 
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.footer {
+  background: #111;
+  color: white;
+  margin-top: 50px;
+}
+
+/* блок під логотипом */
+.footer-info {
+  display: flex;
+  gap: 40px; 
+  margin-top: 15px;
+  align-items: center;
+}
+
+/* верхня лінія */
+.footer-top {
+  height: 6px;
+  background: #650000;
+  width: 100%;
+}
+
+/* основа */
+.footer-content {
+  display: flex;
+  justify-content: flex-start; 
+  gap: 80px; 
+  padding: 40px 60px;
+  align-items: flex-start;
+}
+
+
+/* ліва частина */
+.footer-left {
+  max-width: none;
+}
+
+.footer-left .logo img {
+  height: 40px;
+  margin-bottom: 15px;
+}
+
+/* заголовки */
+.footer-title {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* посилання */
+.footer a {
+  display: block;
+  color: #ccc;
+  text-decoration: none;
+  margin-bottom: 6px;
+  font-size: 14px;
+}
+
+.footer a:hover {
+  color: white;
+}
+
+/* блоки */
+.footer-links {
+  display: flex;
+  gap: 50px;
+}
+
+/* карта */
+.map-link {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.map-link img {
+  width: 18px;
+  border-radius: 6px;
+}
+
+/* графік */
+.footer-work {
+  max-width: 200px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+.footer-work p:not(.footer-title) {
+  display: inline;
+}
+
+.footer-work p:not(.footer-title):not(:last-child)::after {
+  content: " | ";
+}
+
+/* вирівняти текст адреси і графіка */
+.address p,
+.footer-work p {
+  margin: 15px;
+  font-size: 14px;
+  color: #ccc;
+}
+
+
+
+
+
+@media (max-width: 992px) {
+    .wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media (max-width: 700px) {
+    .wrapper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
