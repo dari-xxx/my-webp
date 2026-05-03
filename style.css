@@ -228,80 +228,42 @@ header {
     gap: 20px;
 }
 
-/* 📱 планшет */
 @media (max-width: 992px) {
-    .footer-content {
-        flex-wrap: wrap;
-    }
+  .footer-content {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
 
-    .footer-left,
-    .footer-links {
-        width: 100%;
-    }
-}
-
-/* 📱 телефон */
-@media (max-width: 700px) {
-
-    .footer-content {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 20px;
-    }
-
-    .footer-links {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-        align-items: center;
-    }
-
-    .footer-left {
-        text-align: center;
-        width: 100%;
-    }
-
-    .footer-info {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .address,
-    .footer-work {
-        text-align: center;
-    }
-
-    .map-link {
-        justify-content: center;
-    }
-}
-
-@media (max-width: 700px) {
-    .footer-info {
-        flex-direction: column;
-        gap: 15px;
-        align-items: center;
-    }
+  .footer-left,
+  .footer-links {
+    width: 100%;
+  }
 }
 
 @media (max-width: 700px) {
 
-    .navbar {
-        flex-direction: column;
-        gap: 10px;
-        text-align: center;
-    }
+  .navbar {
+    flex-direction: column;
+    gap: 10px;
+  }
 
-    .menu {
-        flex-direction: column;
-        gap: 10px;
-    }
-}
+  .menu {
+    flex-direction: column;
+    gap: 10px;
+  }
 
-@media (max-width: 700px) {
-  .hero {
-    height: 80vh;
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .footer-info {
+    flex-direction: column;
+    gap: 10px;
   }
 }
