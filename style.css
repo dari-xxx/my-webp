@@ -176,7 +176,7 @@ header {
 /* блоки */
 .footer-links {
   display: flex;
-  gap: 50px;
+  gap: 25px;
 }
 
 .footer-links a {
