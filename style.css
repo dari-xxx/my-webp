@@ -203,7 +203,11 @@ header {
   content: " | ";
 }
 
-.card {
+.activities-page {
+  background: #000;
+}
+
+.activities-page .card {
   background: #1a1a1a;
   padding: 20px;
   border-radius: 10px;
@@ -211,27 +215,39 @@ header {
   transition: 0.3s;
 }
 
-.card:hover {
+.activities-page .card:hover {
   transform: scale(1.05);
 }
 
-.price {
+.activities-page .price {
   font-size: 22px;
   font-weight: bold;
   color: white;
   margin-top: 10px;
 }
 
-table {
+.activities-page table {
   width: 90%;
   margin: 40px auto;
   border-collapse: collapse;
   color: white;
 }
 
-th, td {
+.activities-page th,
+.activities-page td {
   border: 1px solid #444;
   padding: 12px;
+}
+
+/* 📱 тільки для activities */
+@media (max-width: 700px) {
+  .activities-page .wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .activities-page table {
+    font-size: 12px;
+  }
 }
 
 
@@ -306,12 +322,3 @@ th, td {
     }
 }
 
-@media (max-width: 700px) {
-  .wrapper {
-    grid-template-columns: 1fr;
-  }
-
-  table {
-    font-size: 12px;
-  }
-}
