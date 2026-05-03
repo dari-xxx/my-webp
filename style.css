@@ -250,6 +250,27 @@ header {
   }
 }
 
+.activities-page .hero-image img {
+  width: 500px;   /* можеш 450–600 підібрати */
+  max-width: 100%;
+  height: auto;
+}
+
+.activities-page .activities-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px;
+}
+
+.activities-page .hero-text,
+.activities-page .hero-text h1,
+.activities-page .hero-text p {
+  color: white;
+}
+
+
+
 
 /* базові стилі */
 .wrapper {
