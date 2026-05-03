@@ -140,15 +140,11 @@ header {
   align-items: flex-start;
 }
 
-
 /* ліва частина */
-.footer-left {
-  max-width: none;
-}
-
 .footer-left .logo img {
   height: 40px;
   margin-bottom: 15px;
+  max-width: none;
 }
 
 /* заголовки */
@@ -157,6 +153,13 @@ header {
   margin-bottom: 10px;
 }
 
+.footer a {
+  color: #ccc;
+  text-decoration: none;
+  font-size: 14px;
+  display: inline-block;
+  padding: 4px 0;
+}
 
 .footer a:hover {
   color: white;
@@ -238,7 +241,7 @@ header {
     .footer-links {
         display: flex;
         flex-direction: column;
-        gap: 10px;
+        gap: 25px;
         align-items: center;
     }
 
