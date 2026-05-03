@@ -321,6 +321,11 @@ header {
   text-transform: uppercase;
 }
 
+.about-hero h1{
+  color: white;
+}
+
+
 
 /* базові стилі */
 .wrapper {
