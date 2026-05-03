@@ -237,24 +237,60 @@ header {
 
 /* 📱 телефон */
 @media (max-width: 700px) {
+
     .footer-content {
+        display: flex;
         flex-direction: column;
-        text-align: center;
         align-items: center;
+        text-align: center;
+        gap: 20px;
     }
 
     .footer-links {
         display: flex;
         flex-direction: column;
-        gap: 15px;
+        gap: 10px;
         align-items: center;
     }
 
     .footer-left {
         text-align: center;
+        width: 100%;
+    }
+
+    .footer-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .address,
+    .footer-work {
+        text-align: center;
     }
 
     .map-link {
         justify-content: center;
+    }
+}
+
+@media (max-width: 700px) {
+    .footer-info {
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+
+    .menu {
+        flex-direction: column;
+        gap: 10px;
     }
 }
