@@ -216,17 +216,11 @@ header {
 
 
 
+/* базові стилі */
 .wrapper {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
-    padding: 20px;
-}
-
-.card {
-    background: #f3f3f3;
-    padding: 20px;
-    border-radius: 10px;
 }
 
 /* планшет */
@@ -240,9 +234,5 @@ header {
 @media (max-width: 700px) {
     .wrapper {
         grid-template-columns: repeat(1, 1fr);
-    }
-
-    .navbar {
-        padding: 10px 15px;
     }
 }
