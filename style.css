@@ -158,16 +158,6 @@ header {
   margin-bottom: 10px;
 }
 
-/* посилання */
-.footer a {
-  display: block;
-  color: #ccc;
-  text-decoration: none;
-  margin: 0px;
-  font-size: 14px;
-  padding: 4px 0;
-  min-height: 44px;
-}
 
 .footer a:hover {
   color: white;
@@ -176,7 +166,7 @@ header {
 /* блоки */
 .footer-links {
   display: flex;
-  gap: 25px;
+  gap: 15px;
 }
 
 .footer-links a {
