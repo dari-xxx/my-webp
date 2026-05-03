@@ -162,16 +162,30 @@ header {
 .footer a:hover {
   color: white;
 }
+/* ===== FOOTER FIX ===== */
 
-/* блоки */
+.footer,
+.footer p,
+.footer a {
+    color: #ccc;
+}
+
+.address p,
+.footer-work p {
+    margin: 2px 0;
+    line-height: 1.3;
+}
+
 .footer-links {
-  display: flex;
-  gap: 15px;
+    display: flex;
+    gap: 15px;
+    align-items: flex-start;
 }
 
 .footer-links a {
     display: block;
-    padding: 10px 0;
+    padding: 6px 0;
+    margin: 0;
 }
 
 /* карта */
@@ -200,14 +214,6 @@ header {
 .footer-work p:not(.footer-title):not(:last-child)::after {
   content: " | ";
 }
-
-/* вирівняти текст адреси і графіка */
-.address p,
-.footer-work p {
-  margin: 6px 0;
-}
-
-
 
 
 /* базові стилі */
