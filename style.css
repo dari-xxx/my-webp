@@ -214,11 +214,8 @@ header {
 /* вирівняти текст адреси і графіка */
 .address p,
 .footer-work p {
-  margin: 15px;
-  font-size: 14px;
-  color: #ccc;
+  margin: 6px 0;
 }
-
 
 
 
