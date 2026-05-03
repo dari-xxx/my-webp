@@ -55,10 +55,11 @@ header {
 
 .hero {
   height: 105vh;
-  background: url("img/strng.webp") center/cover no-repeat;
   display: flex;
   align-items: center;
   position: relative;
+  background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+              #2f0000;
 }
 
 .hero::before {
