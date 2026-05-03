@@ -58,8 +58,7 @@ header {
   display: flex;
   align-items: center;
   position: relative;
-  background: linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
-              #2f0000;
+  background: url("img/strng.webp") center/cover no-repeat;
 }
 
 .hero::before {
@@ -74,11 +73,10 @@ header {
 .hero-content {
   position: relative;
   color: white;
-  transform: translateY(-60px);
   max-width: 400px;
   margin-left: 60px;
+  text-align: left;
 }
-
 /* заголовок */
 .hero-content h1 {
   font-size: 50px;
