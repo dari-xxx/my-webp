@@ -179,7 +179,7 @@ header {
   gap: 50px;
 }
 
-footer-links a {
+.footer-links a {
     display: block;
     padding: 10px 0;
 }
