@@ -281,19 +281,6 @@ header {
   background: #ffe5e5;
 }
 
-.activities-page table {
-  width: 90%;
-  margin: 40px auto;
-  border-collapse: collapse;
-  color: white;
-}
-
-.activities-page th,
-.activities-page td {
-  border: 1px solid #444;
-  padding: 12px;
-}
-
 /* 📱 тільки для activities */
 @media (max-width: 700px) {
   .activities-page .wrapper {
