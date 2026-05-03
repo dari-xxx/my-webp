@@ -281,7 +281,8 @@ header {
 
 .activities-page .hero-text,
 .activities-page .hero-text h1,
-.activities-page .hero-text p {
+.activities-page .hero-text p,
+.activities-page .pricing-title {
   color: white;
 }
 
