@@ -160,11 +160,13 @@ header {
 
 /* посилання */
 .footer a {
-  display: block;
+  display: inline-block;
   color: #ccc;
   text-decoration: none;
   margin-bottom: 6px;
   font-size: 14px;
+  padding: 10px 5px;
+  min-height: 44px;
 }
 
 .footer a:hover {
@@ -175,6 +177,11 @@ header {
 .footer-links {
   display: flex;
   gap: 50px;
+}
+
+footer-links a {
+    display: block;
+    padding: 10px 0;
 }
 
 /* карта */
