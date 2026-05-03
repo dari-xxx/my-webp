@@ -208,21 +208,25 @@ header {
 }
 
 .activities-page .price-card {
-  min-width: 220px;
   background: white;
-  color: black;
+  color: #650000;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 15px;
   transition: 0.3s;
+  text-align: center;
 }
 
 .activities-page .price-card span {
-  color: #650000;
+  display: block;
+  font-size: 22px;
   font-weight: bold;
+  margin-top: 10px;
 }
 
 .activities-page .price-card:hover {
-  transform: scale(1.05);
+  transform: scale(1.08);
+  background: #650000;
+  color: white;
 }
 
 .activities-page .price {
@@ -235,11 +239,46 @@ header {
 .activities-page .cards-scroll {
   overflow-x: auto;
   padding: 20px;
+  border: 2px solid white;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 30px;
 }
 
 .activities-page .cards-wrapper {
   display: flex;
   gap: 20px;
+  overflow-x: auto;
+  padding: 20px;
+}
+
+.schedule-table table {
+  width: 90%;
+  margin: 40px auto;
+  border-collapse: collapse;
+  background: white;
+  color: #222;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.schedule-table th {
+  background: #650000;
+  color: white;
+  padding: 12px;
+}
+
+.schedule-table td {
+  padding: 12px;
+  text-align: center;
+}
+
+.schedule-table tr:nth-child(even) {
+  background: #f5f5f5;
+}
+
+.schedule-table tr:hover {
+  background: #ffe5e5;
 }
 
 .activities-page table {
@@ -281,12 +320,19 @@ header {
 
 .activities-page .hero-text,
 .activities-page .hero-text h1,
-.activities-page .hero-text p,
-.activities-page .pricing-title {
+.activities-page .hero-text p {
   color: white;
 }
 
-
+.activities-page .pricing-title h2 {
+  color: white;
+  border: 2px solid white;
+  display: inline-block;
+  padding: 12px 30px;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
 
 
 /* базові стилі */
