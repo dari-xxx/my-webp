@@ -207,15 +207,21 @@ header {
   background: #000;
 }
 
-.activities-page .card {
-  background: #1a1a1a;
+.activities-page .price-card {
+  min-width: 220px;
+  background: white;
+  color: black;
   padding: 20px;
   border-radius: 10px;
-  color: white;
   transition: 0.3s;
 }
 
-.activities-page .card:hover {
+.activities-page .price-card span {
+  color: #650000;
+  font-weight: bold;
+}
+
+.activities-page .price-card:hover {
   transform: scale(1.05);
 }
 
@@ -224,6 +230,16 @@ header {
   font-weight: bold;
   color: white;
   margin-top: 10px;
+}
+
+.activities-page .cards-scroll {
+  overflow-x: auto;
+  padding: 20px;
+}
+
+.activities-page .cards-wrapper {
+  display: flex;
+  gap: 20px;
 }
 
 .activities-page table {
