@@ -203,9 +203,36 @@ header {
   content: " | ";
 }
 
+.card {
+  background: #1a1a1a;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  transition: 0.3s;
+}
 
+.card:hover {
+  transform: scale(1.05);
+}
 
+.price {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+  margin-top: 10px;
+}
 
+table {
+  width: 90%;
+  margin: 40px auto;
+  border-collapse: collapse;
+  color: white;
+}
+
+th, td {
+  border: 1px solid #444;
+  padding: 12px;
+}
 
 
 /* базові стилі */
@@ -277,4 +304,14 @@ header {
         flex-direction: column;
         gap: 10px;
     }
+}
+
+@media (max-width: 700px) {
+  .wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  table {
+    font-size: 12px;
+  }
 }
