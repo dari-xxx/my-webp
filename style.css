@@ -356,8 +356,14 @@ header {
 
 /* WHO WE ARE */
 .about-section {
-    background: #0b0b0b;
+    background: linear-gradient(
+        to bottom,
+        #140000,
+        #0b0b0b
+    );
+
     padding: 90px 20px;
+
     display: flex;
     justify-content: center;
 }
