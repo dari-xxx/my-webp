@@ -370,21 +370,10 @@ header {
 
 .about-box {
     max-width: 850px;
-
     text-align: center;
-
     color: white;
-
-    background: rgba(255,255,255,0.03);
-
-    border: 1px solid #650000;
-
-    padding: 50px;
-
-    border-radius: 20px;
-
-    backdrop-filter: blur(6px);
 }
+
 
 .about-box h2 {
     font-size: 42px;
